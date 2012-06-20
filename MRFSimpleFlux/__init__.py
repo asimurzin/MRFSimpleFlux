@@ -26,7 +26,7 @@
 
 #--------------------------------------------------------------------------------------
 from Foam import FOAM_VERSION
-if FOAM_REF_VERSION( ">=", "020101" ):
+if FOAM_VERSION( ">=", "020101" ):
     from MRFSimpleFlux.r2_1_1 import * 
     pass
 
